@@ -1,0 +1,25 @@
+{
+	"name": "ts-template",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "tsc-watch --onSuccess \"node ./dist/index.js\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/crofoot/ts-template.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/crofoot/ts-template/issues"
+	},
+	"homepage": "https://github.com/crofoot/ts-template#readme",
+	"dependencies": {
+		"@types/node": "^14.6.4",
+		"tsc-watch": "^4.2.9",
+		"typescript": "^4.0.2"
+	}
+}
